@@ -411,6 +411,53 @@ section:nth-child(even) {
   font-weight: 600;
 }
 
+.cred-list li a {
+  color: var(--accent);
+}
+
+.about-links {
+  margin-top: 1.5rem;
+}
+
+/* Press */
+.press-list {
+  max-width: var(--max);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.press-list li a {
+  display: block;
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.press-list li a:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.press-list strong {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  margin-bottom: 0.2rem;
+}
+
+.press-list span {
+  color: var(--ink);
+  font-size: 1rem;
+}
+
 /* Testimonial */
 .testimonial {
   max-width: var(--max);
